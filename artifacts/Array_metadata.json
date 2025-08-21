@@ -94,6 +94,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -124,11 +137,11 @@
 	},
 	"sources": {
 		"array.sol": {
-			"keccak256": "0x96342ee9b5f7e786a3658112adc8947f818e56b23a5729652f5dacc623c63e6f",
+			"keccak256": "0x8e47672930c6e6d19fc9c9a2ecbf579cc02c333a9cbf5d33220fb8022099011c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e82d418e85d89dc2a618cd51c88d106d3d7e19a3d1d6ee8695d16e626bbe17a2",
-				"dweb:/ipfs/QmZVqQfdKG1XEMqrJjgixKzRPYazLd3cawdtjzfsgfMfFq"
+				"bzz-raw://4b8c5c20410f11f58e872e0f1df26c49ba20ed40288eec6997132283a3c20306",
+				"dweb:/ipfs/QmdBcNC72RxrstiNLqoBxygpPojzu9WLGR9nLzVjfKKbNX"
 			]
 		}
 	},
