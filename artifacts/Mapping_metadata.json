@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/demo1_mapping.sol": "Mapping"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/demo1_mapping.sol": {
+			"keccak256": "0x7ebe3c9d5a87142d2238c5b1c07780d0a9c236578de17a46579fb25f6fa8b0c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96891bdd4ca7baf7b04147f5f948c2aca899166b1700d70e77e0e99a3cae1794",
+				"dweb:/ipfs/QmcA9WFa4KJXrebvV9TD5osjeFpPYZXHtQdxFQ1fPw4sAk"
+			]
+		}
+	},
+	"version": 1
+}
