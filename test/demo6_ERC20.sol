@@ -7,4 +7,8 @@ contract MyToken is ERC20 {
     constructor() ERC20("MyToken", "MTK") {
         _mint(msg.sender, 1000000 * 10 ** decimals());
     }
+
+    //     function getBalance() public  view returns (uint){
+    //     return address(this).balance;
+    // }
 }

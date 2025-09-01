@@ -477,11 +477,11 @@
 			]
 		},
 		"test/demo6_ERC20.sol": {
-			"keccak256": "0x1c00b4ed6e3fd87a389c0261364aaff6a036baf2c5f4ac41d2c4b1e5e95dd531",
+			"keccak256": "0xe62ca78aeb7949568c3a26ba7468b31ead79e6f6f7443e36a9d7e4d6f273e38d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b5c62be3560093c8702c491514447682aedf735c0bfc97ee834becf969cee683",
-				"dweb:/ipfs/QmWshdqj9HtwjUNfC9NxxhrhpnyTEXt9rfZfHgiMeUG4Hr"
+				"bzz-raw://46b3bbf72aec89a1624514ffc6cbedc0ff709af1622db44c72a6983d6e309c76",
+				"dweb:/ipfs/QmfFVsG6eegt11yTptinfmnZVLTbDFtcHzXHTYgKsWyBES"
 			]
 		}
 	},
