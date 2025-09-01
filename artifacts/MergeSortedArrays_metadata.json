@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr2",
+						"type": "uint256[]"
+					}
+				],
+				"name": "mergeAndReturnNew",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "printArray",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"printArray(uint256[])": {
+					"details": "一个演示性的辅助函数，用于在合约中打印数组（仅用于测试环境，主网中此类操作消耗Gas较多且无实际输出）。",
+					"params": {
+						"arr": "需要打印的数组 此函数主要用于在Remix等测试环境中观察结果，无返回值。"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"task1/MergeArray.sol": "MergeSortedArrays"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"task1/MergeArray.sol": {
+			"keccak256": "0x4d694ed9113aee621985b3ea1e8c812011349e73ea9f05266fa1b02cb7ca0483",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://39b89620ad64cd35473604aef9dfac89dc5ec6e35daa759e7603aa1555462f10",
+				"dweb:/ipfs/QmaLhUoP5UskRypkszJk6e9tirkY4YMUivBVwaXzcarQSG"
+			]
+		}
+	},
+	"version": 1
+}
